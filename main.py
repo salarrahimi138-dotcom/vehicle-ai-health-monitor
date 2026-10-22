@@ -1,2 +1,6 @@
+from config import Config
 def main():
-    pass
+    print(Config.PROJECT_NAME)
+    print(Config.PROJECT_VERSION)
+if __name__ == "__main__":
+    main()
